@@ -1,3 +1,4 @@
+//-----------------------------------------------------------------------
 // Class:			ProblemOne.java
 //
 // Author:			Taylor Vories
@@ -7,13 +8,21 @@
 // Description:		Recursive Method that takes an int argument k and returns,
 //                  as a double, the sum of the first k terms of the series.
 //
-// Files:			
+// Files:		    ProblemOne.java
 //-----------------------------------------------------------------------
 public class ProblemOne {
 
+    /**
+     * Constructor
+     */
 	public ProblemOne() {
 	}
 
+    /**
+     * Recursively processes a number in series.  See assignment for more details
+     * @param k
+     * @return double value of the series
+     */
 	public double process(int k) {
 		if (k <= 0) return 0; // If k = 0
 		if (k == 1) return 1;

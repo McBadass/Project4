@@ -4,9 +4,10 @@
 //
 // Class:			CS 2050
 //
-// Description:		
+// Description:		Recursively processes a string to find out if it is
+//                  a palindrome or not.
 //
-// Files:			
+// Files:			ProblemTwo.java
 //-----------------------------------------------------------------------
 public class ProblemTwo {
 
@@ -14,6 +15,11 @@ public class ProblemTwo {
 
 	}
 
+    /**
+     * Recursive method to verify if a string is a palindrome.
+     * @param rawString
+     * @return true if palindrome.
+     */
 	public boolean process(String rawString) {
 		//TODO: It would be nice if cleanString only ran once instead of each recursion
 		String s = cleanString(rawString);
